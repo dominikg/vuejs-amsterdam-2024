@@ -1,0 +1,22 @@
+<br>
+<br>
+
+### Config is bundled and watched during dev
+
+<br>
+<div class=center>and the server restarts automatically to apply changes</div>
+<br>
+
+```diff
+// vite.config.js
+import postcss from './postcss.config.js'
+export default defineConfig({
+  css:{postcss},
++ logLevel: 'info'
+})
+```
+
+```diff
+// postcss.config.js
++  plugins: [/*...*/, newplugin]
+```

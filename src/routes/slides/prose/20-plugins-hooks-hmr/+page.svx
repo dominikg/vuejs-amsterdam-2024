@@ -1,0 +1,33 @@
+<script>
+    import hmr from "$assets/hmr-start-flow.png";
+</script>
+
+<br>
+<br>
+
+### Hot module replacement is easy<sup>\*</sup>
+
+<br>
+
+<div class=center>
+<img class="shadow hmr" src={hmr} alt="hmr">
+</div>
+
+<br>
+<br>
+
+<div class=center>
+  <a href="https://bjornlu.com/blog/hot-module-replacement-is-easy">https://bjornlu.com/blog/hot-module-replacement-is-easy</a>
+  <a href="https://vitejs.dev/guide/api-plugin.html#handlehotupdate">https://vitejs.dev/guide/api-plugin.html#handlehotupdate</a>
+</div>
+
+<br>
+
+<div style="text-align: right;"><sup>*</sup> according to Bjorn</div>
+
+
+<style>
+img.hmr {
+  height: 40vh;
+}
+</style>

@@ -1,0 +1,29 @@
+<br>
+
+### Virtual Modules
+
+<br>
+
+<div class=center>Are insanely useful to generate or split code</div>
+
+```js
+export default function myPlugin() {
+  const vid = 'virtual:my-id',resolvedvid = '\0' + vid;
+  return {
+    name: 'my-plugin',
+    resolveId(id) {
+      if (id === vid) {return resolvedvid}
+    },
+    load(id) {
+      if (id === resolvedvid) {
+        return `export const msg = "from virtual module"`
+      }
+    },
+  }
+}
+```
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#virtual-modules-convention">https://vitejs.dev/guide/api-plugin.html#virtual-modules-convention</a>
+</div>
+

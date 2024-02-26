@@ -1,0 +1,27 @@
+<br>
+<br>
+
+### read config from configResolved
+
+```js
+const examplePlugin = () => {
+  let config
+  return {
+    name: 'read-config',
+    configResolved(resolvedConfig) {
+      config = resolvedConfig // store it
+    },
+    // use stored config in other hooks
+    transform(code, id) {
+      if (config.command === 'serve') {
+        // dev: plugin invoked by dev server
+      }
+    },
+  }
+}
+```
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#configresolved">https://vitejs.dev/guide/api-plugin.html#configresolved</a>
+</div>
+

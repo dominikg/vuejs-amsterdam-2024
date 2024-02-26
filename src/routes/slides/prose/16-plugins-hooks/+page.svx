@@ -1,0 +1,30 @@
+<br>
+<br>
+
+### Plugin hooks
+
+<br>
+<div class=center>can be sync or async, parallel or sequential</div>
+<br>
+
+```js
+function plugin(){
+  return {
+    name: 'hooks-list',
+    resolveId(){},
+    load(){},
+    transform(){},
+    buildStart(){}, // called on dev start too
+    buildEnd(){},
+    // ...
+  }
+}
+```
+
+<br>
+
+<div class=center>
+  <a href="https://rollupjs.org/plugin-development/#build-hooks">https://rollupjs.org/plugin-development/#build-hooks</a>
+  <a href="https://vitejs.dev/guide/api-plugin.html#universal-hooks">https://vitejs.dev/guide/api-plugin.html#universal-hooks</a>
+</div>
+

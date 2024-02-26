@@ -1,0 +1,29 @@
+<br>
+<br>
+
+### Vite specific hooks
+
+<br>
+<div class=center>add more capabilities</div>
+<br>
+
+```js
+function plugin(){
+  return {
+    name: 'vite-hooks',
+    config(){},
+    configResolved(){},
+    configureServer(){},
+    configurePreviewServer(){},
+    handleHotUpdate(){},
+    transformIndexHtml(){}
+  }
+}
+```
+
+<br>
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#vite-specific-hooks">  https://vitejs.dev/guide/api-plugin.html#vite-specific-hooks</a>
+</div>
+

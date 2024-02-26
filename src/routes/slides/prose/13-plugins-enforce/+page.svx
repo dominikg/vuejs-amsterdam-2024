@@ -1,0 +1,39 @@
+<br>
+<br>
+
+### Change their order with enforce pre / post
+
+<br>
+
+```js
+function myPlugin() {
+  return {
+    name: 'vite-plugin-custom-resolve',
+    enforce:'pre'
+  }
+}
+```
+
+#### plugins order
+
+- Alias
+- User plugins with enforce: 'pre'
+- Vite core plugins
+- User plugins without enforce value
+- Vite build plugins
+- User plugins with enforce: 'post'
+- Vite post build plugins (minify, manifest, reporting)
+
+<br>
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#plugin-ordering">https://vitejs.dev/guide/api-plugin.html#plugin-ordering</a>
+</div>
+
+<style>
+  ul {
+    display: table;
+    margin: 0 auto;
+
+  }
+</style>

@@ -1,0 +1,24 @@
+<br>
+<br>
+
+### customize the dev server
+
+<br>
+
+```js
+const myPlugin = () => ({
+  name: 'configure-server',
+  configureServer(server) {
+    server.middlewares.use((req, res, next) => {
+      // custom handle request...
+    })
+  },
+})
+```
+
+<br>
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#configureserver">https://vitejs.dev/guide/api-plugin.html#configureserver</a>
+</div>
+

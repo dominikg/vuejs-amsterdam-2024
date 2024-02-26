@@ -1,0 +1,23 @@
+<br>
+<br>
+
+### Release tips
+
+```js
+//package.json
+{
+  "type":"module", // publish as esm
+  "types": "/dist/types.d.ts", // include types
+  "publint": "pnpm publint", // lint your package
+  "exports": {
+    // use an exports map for conditions
+  }
+}
+```
+
+<br>
+
+<div class=center>
+<a href="https://publint.dev/">https://publint.dev/</a>
+</div>
+

@@ -1,0 +1,30 @@
+<br>
+<br>
+
+### Vite Config
+
+<br>
+<div class=center>
+  Shared, Server, Build, Preview, Dep Optimization, SSR and Worker ...
+</div>
+<br>
+
+```js
+// vite.config.js (or .ts)
+export default {
+  // config options
+}
+```
+
+```js
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  // ...
+})
+```
+
+<div class=center>
+  <a href="https://vitejs.dev/config/">https://vitejs.dev/config/</a>
+</div>
+

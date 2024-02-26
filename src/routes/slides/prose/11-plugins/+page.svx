@@ -1,0 +1,30 @@
+<br>
+<br>
+
+### Vite plugins
+
+<br>
+<div class=center>
+can be used to extend or customize vite beyond its own options
+</div>
+<br>
+
+```js
+// vite.config.js
+import {aPlugin} from 'a-plugin-package';
+export default defineConfig({
+  plugins:[aPlugin()]
+})
+```
+
+```js
+// a-plugin.js
+export function aPlugin() {
+  //...
+}
+```
+
+<div class=center>
+  <a href="https://vitejs.dev/plugins/">https://vitejs.dev/plugins/</a>
+  <a href="https://github.com/vitejs/awesome-vite#plugins"> https://github.com/vitejs/awesome-vite#plugins</a>
+</div>

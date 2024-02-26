@@ -1,0 +1,24 @@
+<script>
+    import vite from "$assets/vite-logo-with-shadow.png";
+</script>
+
+<br>
+<br>
+
+### Docs to the rescue
+
+<br>
+
+<div class=center>
+  <img alt=vite src={vite}>
+  <br>
+  <a href="https://vitejs.dev/">https://vitejs.dev/</a>
+</div>
+
+
+
+<style>
+  img {
+    width: 30vh
+  }
+</style>

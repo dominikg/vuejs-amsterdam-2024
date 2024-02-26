@@ -1,0 +1,22 @@
+<br>
+<br>
+
+### About me
+
+<br>
+
+- 2002 - First IT job
+- 2011 - Freelancer
+- 2021 - Maintainer
+  - vite-plugin-svelte
+  - vite-ecosystem-ci
+  - tsconfck
+
+
+<style>
+  ul {
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+  }
+</style>

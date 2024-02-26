@@ -1,0 +1,23 @@
+<br>
+<br>
+
+# Thank you
+
+<br>
+
+## contributors
+
+## maintainers
+
+## community
+
+<br>
+
+## future plugin authors &#9829;
+
+<style>
+h1,h2 { text-align: center }
+
+</style>
+
+

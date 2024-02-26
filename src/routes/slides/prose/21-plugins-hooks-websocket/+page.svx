@@ -1,0 +1,32 @@
+<br>
+
+### Client-server Communication
+
+<div class=center>send and receive messages via websocket</div>
+
+```js
+configureServer(server) {
+  server.hot.on('connection', () => {
+    server.hot.send('my:greetings', { msg: 'hello' })
+  })
+  server.hot.on('my:from-client', (data, client) => {
+    console.log('Message from client:', data.msg) // Hey!
+  })
+}
+```
+
+```js
+// client side
+if (import.meta.hot) {
+  import.meta.hot.on('my:greetings', (data) => {
+    console.log(data.msg) // hello
+  })
+  import.meta.hot.send('my:from-client', { msg: 'Hey!' })
+}
+```
+<br>
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#client-server-communication">https://vitejs.dev/guide/api-plugin.html#client-server-communication</a>
+</div>
+

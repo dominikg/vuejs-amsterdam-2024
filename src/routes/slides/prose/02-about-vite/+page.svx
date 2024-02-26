@@ -1,0 +1,21 @@
+<br>
+<br>
+
+### About vite
+
+<br>
+
+- 2020 - First release
+- 2021 - 2.0 released on 16.2.
+- 2024 - 5.1 released on 08.2.
+    - 900 contributors
+    - used by 3.7m on github
+    - over 10m weekly downloads on npm
+
+<style>
+  ul {
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+  }
+</style>

@@ -1,0 +1,27 @@
+<br>
+<br>
+
+### Some of the most powerful options
+
+<br>
+
+<div class=center>
+  customize resolve, add plugins
+</div>
+
+<br>
+
+```js
+{
+  resolve: {
+    alias: { "$cool":"/src/cool" },
+    conditions: ['my-custom-condition'],
+    /// ...
+  },
+  plugins: []
+}
+```
+
+<div class=center>
+  <a href="https://vitejs.dev/config/shared-options.html">https://vitejs.dev/config/shared-options.html</a>
+</div>

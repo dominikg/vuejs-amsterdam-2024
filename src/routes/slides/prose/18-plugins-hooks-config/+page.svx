@@ -1,0 +1,28 @@
+<br>
+<br>
+
+### Update config
+
+```js
+// return partial config (recommended)
+const partialConfigPlugin = () => ({
+  name: 'return-partial',
+  config: () => ({
+    resolve: {alias: {foo: 'bar' }},
+  }),
+})
+// mutate the config (only when merging doesn't work)
+const mutateConfigPlugin = () => ({
+  name: 'mutate-config',
+  config(config, { command }) {
+    if (command === 'build') { config.root = 'foo' }
+  },
+})
+```
+
+<br>
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#config">https://vitejs.dev/guide/api-plugin.html#config</a>
+</div>
+

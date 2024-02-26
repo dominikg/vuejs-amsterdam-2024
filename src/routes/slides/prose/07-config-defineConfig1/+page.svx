@@ -1,0 +1,24 @@
+<br>
+<br>
+
+### Conditional Config
+
+<br>
+<div class=center>
+a function can be used to obtain information for conditions
+</div>
+
+```js
+export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
+  if (command === 'serve') {
+    return {
+      // dev specific config
+    }
+  } else {
+    // command === 'build'
+    return {
+      // build specific config
+    }
+  }
+})
+```

@@ -1,0 +1,29 @@
+<script>
+    import firstIssue from "$assets/first-issue.jpg";
+    import npm from "$assets/npm-vite-plugins.png";
+</script>
+
+<br>
+<br>
+
+### A long time ago
+
+<br>
+
+<img class="shadow contact" src={firstIssue} alt="first issue">
+
+<br>
+<br>
+
+### Today
+
+<br>
+
+<img class="shadow contact" src={npm} alt="npm">
+
+<style>
+  img.contact {
+    height: 10rem;
+    width: 100%;
+  }
+</style>

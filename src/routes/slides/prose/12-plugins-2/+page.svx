@@ -1,0 +1,29 @@
+<br>
+<br>
+
+### Vite plugins extend Rollups plugin api
+
+<br>
+<div class=center>
+
+</div>
+<br>
+
+
+```js
+// aPlugin
+export function aPlugin() {
+  name: 'vite-plugin-a',
+  buildStart() {
+    console.log('Hello vite');
+  }
+  //...
+}
+```
+
+<br>
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html">https://vitejs.dev/guide/api-plugin.html</a>
+  <a href="https://rollupjs.org/plugin-development/">https://rollupjs.org/plugin-development/</a>
+</div>

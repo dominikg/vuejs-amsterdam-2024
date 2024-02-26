@@ -1,0 +1,31 @@
+<br>
+<br>
+
+### The plugins array is flattened internally
+
+<br>
+
+<div class="center">This can be used to build frameworks or collections</div>
+
+```js
+// framework-plugin
+import refresh from 'vite-plugin-framework-refresh'
+import devtools from 'vite-plugin-framework-devtools'
+
+export default function framework(config) {
+  return [refresh(config), devtools(config)]
+}
+```
+```js
+// vite.config.js
+import { defineConfig } from 'vite'
+import framework from 'vite-plugin-framework'
+
+export default defineConfig({
+  plugins: [framework()],
+})
+```
+
+<div class=center>
+  <a href="https://vitejs.dev/guide/api-plugin.html#plugins-config">https://vitejs.dev/guide/api-plugin.html#plugins-config/</a>
+</div>

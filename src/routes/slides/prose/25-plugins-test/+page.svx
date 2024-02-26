@@ -1,0 +1,26 @@
+<br>
+<br>
+
+### How do you test plugins?
+
+<br>
+
+- unit tests with vitest
+- setup test projects in a monorepo
+- start devserver with your plugin from the workspace
+- assert page content in dev
+- fixtures and snapshots for build output
+
+<br>
+
+<div class=center>
+<a href="https://vitest.dev/">https://vitest.dev/</a>
+<a href="https://github.com/vitejs/vite/tree/main/playground">https://github.com/vitejs/vite/tree/main/playground</a>
+</div>
+
+<style>
+  ul {
+    display: table;
+    margin: 0 auto;
+  }
+</style>
